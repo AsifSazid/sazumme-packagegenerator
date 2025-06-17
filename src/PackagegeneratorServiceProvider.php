@@ -38,19 +38,19 @@ class packagegeneratorServiceProvider extends ServiceProvider
 
     private function libs()
     {
-        \Illuminate\Support\Facades\Blade::component('spg-style', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Libs\Style::class);
-        \Illuminate\Support\Facades\Blade::component('spg-js', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Libs\Js::class);
+        \Illuminate\Support\Facades\Blade::component('spg-style', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Libs\Style::class);
+        \Illuminate\Support\Facades\Blade::component('spg-js', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Libs\Js::class);
     }
 
     private function partials()
     {
-        \Illuminate\Support\Facades\Blade::component('spg-meta', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Meta::class);
-        \Illuminate\Support\Facades\Blade::component('spg-dummy', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Dummy::class);
-        \Illuminate\Support\Facades\Blade::component('spg-breadcrumb', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Breadcrumb::class);
-        \Illuminate\Support\Facades\Blade::component('spg-title', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Title::class);
-        \Illuminate\Support\Facades\Blade::component('spg-favicon', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Favicon::class);
+        \Illuminate\Support\Facades\Blade::component('spg-meta', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Meta::class);
+        \Illuminate\Support\Facades\Blade::component('spg-dummy', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Dummy::class);
+        \Illuminate\Support\Facades\Blade::component('spg-breadcrumb', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Breadcrumb::class);
+        \Illuminate\Support\Facades\Blade::component('spg-title', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Title::class);
+        \Illuminate\Support\Facades\Blade::component('spg-favicon', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Favicon::class);
         
         
-        \Illuminate\Support\Facades\Blade::component('spg-aside', \Sazumme\Packagegenerator\App\View\Components\backend\Layouts\Partials\Aside::class);
+        \Illuminate\Support\Facades\Blade::component('spg-aside', \Sazumme\Packagegenerator\App\View\Components\Backend\Layouts\Partials\Aside::class);
     }
 }
