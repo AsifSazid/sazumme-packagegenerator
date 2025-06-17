@@ -1,0 +1,32 @@
+{
+    "name": "sazumme/packagegenerator",
+    "type": "library",
+    "description": "This package will help you for creating a package cover within a short time (with composer.json, License and Service Provider)\r\n\r\nThanks for using and your Contribution!!! \u2764 \r\n\r\nLove from SazTech, a sister concern of SazUmme Technology...",
+    "keywords": [
+        "Laravel"
+    ],
+    "authors": [
+        {
+            "name": "Asif M Sazid, CEO, SazTech",
+            "email": "asifsazid83umy@gmail.com",
+            "homepage": "www.sazumme.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sazumme\\Packagegenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "copyright": "www.sazumme.com",
+        "laravel": {
+            "providers": [
+                "Sazumme\\Packagegenerator\\PackagegeneratorServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "version": "1.0.0",
+    "license": "MIT"
+}
