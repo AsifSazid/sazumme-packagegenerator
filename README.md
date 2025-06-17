@@ -1,6 +1,4 @@
-# packagegenerator by SazUmme Technology Limited 
-# SazTech 
-# SazUmme_Technology_Limited 
+# packagegenerator by SazTech 
 
 To install your it in your laravel project, write the below thing in your cmd- 
 Local Package Installation: 
