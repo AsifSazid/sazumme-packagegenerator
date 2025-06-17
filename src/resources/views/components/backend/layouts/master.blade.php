@@ -2,10 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <x-sp-backend-meta />
-    <x-sp-backend-title :title="'SazVerse - Dashboard'" />
-    <x-sp-backend-favicon />
-    <x-sp-backend-style />
+    <x-spg-meta />
+    <x-spg-title :title="'SazVerse - Dashboard'" />
+    <x-spg-favicon />
+    <x-spg-style />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             </div>
 
             <!-- Sidebar -->
-            <x-sp-backend-aside :navigations="''" />
+            <x-spg-aside :navigations="''" />
 
             <div class="flex-1 h-full overflow-x-hidden overflow-y-auto">
                 <!-- Navbar -->
@@ -361,7 +361,7 @@
         </div>
     </div>
 
-    <x-sp-backend-js />
+    <x-spg-js />
 </body>
 
 </html>
