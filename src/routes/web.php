@@ -2,7 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use Sazumme\Packagegenerator\Http\Controllers\PackageController;
 
-Route::get('/dashboard', function () {
+Route::get('/package-gen/dashboard', function () {
     return view('packagegenerator::dashboard');
 })->name('package.dashboard');
 Route::get('/package-generator', function () {
