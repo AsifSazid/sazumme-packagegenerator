@@ -3,7 +3,7 @@
 
 <head>
     <x-spg-meta />
-    <x-spg-title :title="'SazVerse - Dashboard'" />
+    <x-spg-title :title="'SazTech Tools'" />
     <x-spg-favicon />
     <x-spg-style />
 </head>
